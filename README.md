@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Explainable Credit Card Fraud Detection Using Machine Learning
 
 Local Streamlit app for M.Tech demonstration. Detects fraudulent transactions, compares Logistic Regression / Random Forest / Isolation Forest, balances training data with SMOTE, and explains predictions with SHAP.
@@ -34,3 +35,7 @@ Then open the URL shown in the terminal (usually http://localhost:8501) and uplo
 4. Model Comparison — metrics, ROC, PR curves  
 5. Fraud Prediction — batch / row prediction + download report  
 6. Explainable AI — SHAP global and individual explanations  
+=======
+# Credit-Card-Fraud-Detection-Using-Machine-Learning-
+M.Tech CSE AI AND MACHINE LEARNING WITH APPLIED MATHEMATICS PROJECT
+>>>>>>> origin/main
