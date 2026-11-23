@@ -1,0 +1,38 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Streamlit / IDE
+.streamlit/secrets.toml
+.idea/
+.vscode/
+
+# Trained artifacts (regenerate locally)
+models/*.joblib
+!models/.gitkeep
+
+# Generated outputs
+outputs/charts/*
+outputs/reports/*
+outputs/shap_plots/*
+!outputs/charts/.gitkeep
+!outputs/reports/.gitkeep
+!outputs/shap_plots/.gitkeep
+
+# NEVER commit datasets
+*.csv
+!requirements.txt
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+.streamlit/credentials.toml
